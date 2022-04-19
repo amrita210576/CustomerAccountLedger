@@ -142,7 +142,7 @@ public class BorrowerServiceImpl implements BorrowerService {
                 .getDetails().get(bankName)
                 .getLumpSumPaymentDetailsList();
             if (exisitingLumpSumList == null) {
-                exisitingLumpSumList = new ArrayList() {
+                exisitingLumpSumList = new ArrayList<LumpSumPaymentDetails>() {
                     {
                         add(lumpSumPaymentDetails);
                     }

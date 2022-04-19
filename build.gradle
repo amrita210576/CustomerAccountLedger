@@ -10,10 +10,10 @@ targetCompatibility = 1.8
 
 
 jar {
-    //archiveBaseName = 'geektrust' //Please do not change this final artifact name
-    //version =  null               //Please do not change this final artifact version
+    archiveBaseName = 'geektrust' //Please do not change this final artifact name
+    version =  null               //Please do not change this final artifact version
     manifest {
-        attributes 'Main-Class' : 'com.example.Main' //This is main class of your program which will be executed
+        attributes 'Main-Class' : 'com.example.Geektrust' //This is main class of your program which will be executed first
     }
 
     // To create a single jar with all dependencies.
