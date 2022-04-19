@@ -1,0 +1,15 @@
+.classpath
+.gradle/
+.project
+.settings/
+.vscode/
+bin/
+build/
+classes/
+out/
+*.iml
+.idea
+*.ipr
+*.iws
+.classpath
+/.apt_generated/
